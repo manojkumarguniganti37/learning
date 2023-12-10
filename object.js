@@ -1,8 +1,11 @@
-//Tv
+//tv
 var variableTv =
 {
-    colour : "black",
-    channels : "100",
-    brand : "sony"
+    colour : black
+    "name" : sony
+    channels : 100
+    
+
 }
+    
 console.log(variableTv);
