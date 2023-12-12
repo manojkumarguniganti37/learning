@@ -25,6 +25,8 @@ var sweetyDetails =
 console.log("Details of sweety:",sweetyDetails) ;
 var sweetyCollege = ["swec" , "cse" , "D" ];
 console.log("CollegeDetails:",sweetyCollege) ;
+
+
 for(i=1;i<=10;i=i+1)
 if(i%2==1)
 {
@@ -36,10 +38,28 @@ for(j=5;j>=1;j--)
 {
     console.log(j) ;
 }
-var k=0,l=1,m ;
+
+
+var i,sum = 0 ;
+console.log("sum of 5 numbers:") ;
+for(i=1; i<=5; i++)
+sum = sum + i ;
+{
+    console.log(sum) ;
+}
+
+
+var i;fact=1;
+console.log("factorial of 5:") ;
+for(i=5;i>=1;i--)
+fact = fact * i ;
+{
+    console.log(fact) ;
+}
+
+
+var i=0,j=1,k ;
 console.log("fibonacci series") ;
-for(k=1 ; k<=50 ; k++)
-var k=l ;
-var l=m ;
-var m=k+l ;
-console.log(m) ;
+for(i=1;i<=50;i++)
+var i=j ;
+ 
